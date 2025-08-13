@@ -126,6 +126,8 @@ modalOverlay.addEventListener('click', function (e) {
     totalTickets: document.getElementById('booking-guests').value
   };
 
+//   https://church-backend-eez4.onrender.com
+
   try {
     const res = await fetch('https://church-backend-eez4.onrender.com/api/bookings', {
       method: 'POST',
